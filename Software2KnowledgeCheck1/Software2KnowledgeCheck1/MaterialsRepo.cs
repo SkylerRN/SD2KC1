@@ -8,6 +8,6 @@ namespace Software2KnowledgeCheck1
 {
     internal class MaterialsRepo
     {
-        public List<Material> GetMaterials() => new List<Material>();
+        public List<string> GetMaterials() => new List<string>();
     }
 }
