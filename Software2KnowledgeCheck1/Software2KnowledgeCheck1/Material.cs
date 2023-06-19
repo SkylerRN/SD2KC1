@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Software2KnowledgeCheck1
 {
-    internal class MaterialsRepo
+    internal abstract class Material
     {
-        public List<Material> GetMaterials() => new List<Material>();
+        internal abstract string MaterialContructionFirstStep();
     }
 }

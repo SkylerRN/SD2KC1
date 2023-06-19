@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Software2KnowledgeCheck1
 {
-    internal class MaterialsRepo
+    internal class Steel : Material
     {
-        public List<Material> GetMaterials() => new List<Material>();
+        internal override string MaterialContructionFirstStep()
+        {
+            return "Start building structure.";
+        }
     }
 }
